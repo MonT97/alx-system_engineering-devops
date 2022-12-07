@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | grep '^-' | cut -d " " -f 10 | grep -v '^[A-Z]'
+ls -lt | grep '^-' | cut -d " " -f 10 | head
